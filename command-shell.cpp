@@ -11,7 +11,6 @@
 
 using namespace std;
 
-
 class CustomShell {
 private:
     // Maximum number of arguments supported
@@ -181,3 +180,9 @@ public:
         }
     }
 };
+
+int main() {
+    CustomShell shell;
+    shell.run();
+    return 0;
+}
